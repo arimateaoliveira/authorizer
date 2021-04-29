@@ -19,7 +19,7 @@ Essa aplicação tem como responsabilidade criar contas e autorizar uma transaç
 ## Instalação
 
 - Baixar o projeto no github - https://github.com/arimateaoliveira/authorizer/
-- Executar o comando a seguir para subir o docker com o kafka e o zookeeper.
+
 
 ```bash
  https://github.com/arimateaoliveira/authorizer/
