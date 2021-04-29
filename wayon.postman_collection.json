@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "3aaae558-c37f-4b93-81b1-503008d3c415",
+		"name": "wayon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account\": {\"active-card\": true, \"available-limit\": 100}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/account",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"transaction\": {\"merchant\": \"Burger King\", \"amount\": 40, \"time\":\"2021-02-24T10:00:00.000Z\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/transaction",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
